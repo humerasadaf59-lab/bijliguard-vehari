@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+html, body { margin: 0; min-height: 100%; background: #07111f; color: #e5eef7; }
+body { font-family: Arial, Helvetica, sans-serif; }
+* { box-sizing: border-box; }
+.leaflet-container { height: 100%; width: 100%; background: #102030; }
+.leaflet-control-attribution { font-size: 9px; }

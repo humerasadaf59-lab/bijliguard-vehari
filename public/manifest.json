@@ -1,0 +1,10 @@
+{
+  "name": "BijliGuard Vehari",
+  "short_name": "BijliGuard",
+  "description": "Community-powered load shedding intelligence for Vehari.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07111f",
+  "theme_color": "#facc15",
+  "icons": []
+}

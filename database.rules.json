@@ -1,0 +1,11 @@
+{
+  "rules": {
+    "reports": {
+      ".read": true,
+      "$report": {
+        ".write": "auth != null || newData.child('uid').val() == 'anonymous'",
+        ".validate": "newData.hasChildren(['lat','lng','status','timestamp','area','uid'])"
+      }
+    }
+  }
+}

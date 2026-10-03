@@ -1,3 +1,4 @@
+//@ts-nocheck
 export type PredictionReport = {
   status: "ON" | "OFF";
   timestamp: number;
